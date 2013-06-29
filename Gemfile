@@ -6,6 +6,9 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg'
+gem 'nokogiri', '~> 1.5.6'
+gem "open-uri-cached", "~> 0.0.5"
+gem "net-http-persistent", "~> 2.8"
 
 
 # Gems used only for assets and not required
