@@ -17,3 +17,7 @@ task :scrape => :environment do
 		end
   	end
 end
+
+task :email => :environment do
+	CraigslistMailer.test_email("noshaf@gmail.com").deliver
+end
