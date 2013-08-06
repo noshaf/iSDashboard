@@ -1,6 +1,22 @@
-class ApplicationController < ActionController::Base
-  protect_from_forgery
-  before_filter :authenticate
+class FakeTicketsController < ApplicationController
+
+  def new
+  end
+
+  def edit
+  end
+
+  def update
+  end
+
+  def index
+  end
+
+  def show
+  end
+
+  def destroy
+  end
 
   protected
 
@@ -9,5 +25,5 @@ class ApplicationController < ActionController::Base
       username == "isadmin" && password == "gracefulbreeze"
     end
   end
-  
+
 end
