@@ -15,7 +15,7 @@ task :scrape_phili => :environment do
 	emails = scrape("philadelphia.craigslist.org")
 	puts "Sending Emails through lavabit..."
 	send_emails(emails, "littlebite")
-	puts "~100 Emails sent to phili area"
+	puts "~100 Emails sent to Phili area"
 end
 
 task :scrape_sf => :environment do 
@@ -34,12 +34,12 @@ task :scrape_ny => :environment do
 	puts "~100 Emails sent to NY area"
 end
 
-task :scrape_miami => :environment do 
+task :scrape_jacksonville => :environment do 
 	puts "Compiling Emails..."
 	emails = scrape("miami.craigslist.org")
 	puts "Sending Emails through lavabit..."
 	send_emails(emails, "picobyte")
-	puts "~100 Emails sent to Miami area"
+	puts "~100 Emails sent to Jacksonville area"
 end
 
 task :scrape_chicago => :environment do 
