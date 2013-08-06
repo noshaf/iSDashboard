@@ -2,6 +2,22 @@ task :test_mail => :environment do
 	send_emails([], "ben_instastub")
 end
 
+task :scrape_houston => :environment do 
+	puts "Compiling Emails..."
+	emails = scrape("houston.craigslist.org")
+	puts "Sending Emails through lavabit..."
+	send_emails(emails, "biteski")
+	puts "~100 Emails sent to houston area"
+end
+
+task :scrape_phili => :environment do 
+	puts "Compiling Emails..."
+	emails = scrape("philadelphia.craigslist.org")
+	puts "Sending Emails through lavabit..."
+	send_emails(emails, "littlebite")
+	puts "~100 Emails sent to phili area"
+end
+
 task :scrape_sf => :environment do 
 	puts "Compiling Emails..."
 	emails = scrape("sfbay.craigslist.org")
