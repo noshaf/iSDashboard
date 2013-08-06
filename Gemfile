@@ -7,6 +7,7 @@ gem 'rails', '3.2.13'
 
 gem 'pg'
 gem 'nokogiri', '~> 1.5.6'
+gem 'mechanize'
 gem "open-uri-cached", "~> 0.0.5"
 gem "net-http-persistent", "~> 2.8"
 
