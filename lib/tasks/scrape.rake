@@ -14,7 +14,7 @@ task :scrape_phili => :environment do
 	puts "Compiling Emails..."
 	emails = scrape("philadelphia.craigslist.org")
 	puts "Sending Emails through lavabit..."
-	send_emails(emails, "littlebite")
+	send_emails(emails, "biteski")
 	puts "~100 Emails sent to Phili area"
 end
 
