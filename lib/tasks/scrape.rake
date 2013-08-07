@@ -123,7 +123,7 @@ through social mediums easier.
 
 Feel free to try our product for free.
 
-Visit this link, http://goo.gl/YYVSZp and use the code 'VIP'.
+Visit this link, http://goo.gl/3gm96H and use the code 'VIP'.
 
 If you have any questions please let me know.
 
